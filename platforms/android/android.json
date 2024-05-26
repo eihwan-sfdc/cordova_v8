@@ -1,0 +1,75 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {
+      "res/xml/config.xml": {
+        "parents": {
+          "/*": [
+            {
+              "xml": "<feature name=\"MCCordovaPlugin\"><param name=\"android-package\" value=\"com.salesforce.marketingcloud.cordova.MCCordovaPlugin\" /></feature>",
+              "count": 1
+            }
+          ]
+        }
+      },
+      "config.xml": {
+        "parents": {
+          "/*": [
+            {
+              "xml": "<preference name=\"AndroidXEnabled\" value=\"true\" />",
+              "count": 1
+            },
+            {
+              "xml": "<preference name=\"GradlePluginGoogleServicesEnabled\" value=\"true\" />",
+              "count": 1
+            },
+            {
+              "xml": "<preference name=\"GradlePluginGoogleServicesVersion\" value=\"4.3.14\" />",
+              "count": 1
+            }
+          ]
+        }
+      },
+      "AndroidManifest.xml": {
+        "parents": {
+          "/manifest/application": [
+            {
+              "xml": "<provider android:authorities=\"io.cordova.hellocordova.com.salesforce.marketingcloud.cordova.MCInitProvider\" android:enabled=\"true\" android:exported=\"false\" android:name=\"com.salesforce.marketingcloud.cordova.MCInitProvider\" />",
+              "count": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "installed_plugins": {
+    "cordova-plugin-marketingcloudsdk": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
+    }
+  },
+  "dependent_plugins": {},
+  "modules": [
+    {
+      "id": "cordova-plugin-marketingcloudsdk.MCCordovaPlugin",
+      "file": "plugins/cordova-plugin-marketingcloudsdk/www/MCCordovaPlugin.js",
+      "pluginId": "cordova-plugin-marketingcloudsdk",
+      "clobbers": [
+        "MCCordovaPlugin"
+      ]
+    },
+    {
+      "id": "cordova-plugin-marketingcloudsdk.SFMCEvent",
+      "file": "plugins/cordova-plugin-marketingcloudsdk/www/event.js",
+      "pluginId": "cordova-plugin-marketingcloudsdk",
+      "clobbers": [
+        "SFMCEvent"
+      ]
+    }
+  ],
+  "plugin_metadata": {
+    "cordova-plugin-marketingcloudsdk": "8.1.0"
+  }
+}

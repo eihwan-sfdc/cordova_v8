@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="io.cordova.hellocordova" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="MCCordovaPlugin">
+        <param name="android-package" value="com.salesforce.marketingcloud.cordova.MCCordovaPlugin" />
+    </feature>
+    <name>HelloCordova</name>
+    <description>Sample Apache Cordova App</description>
+    <author email="dev@cordova.apache.org" href="https://cordova.apache.org">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <preference name="loglevel" value="DEBUG" />
+    <preference name="AndroidXEnabled" value="true" />
+    <preference name="GradlePluginGoogleServicesEnabled" value="true" />
+    <preference name="GradlePluginGoogleServicesVersion" value="4.3.14" />
+    <preference name="com.salesforce.marketingcloud.app_id" value="40869a6f-c0ce-4637-8c29-c41c26161b2e" />
+    <preference name="com.salesforce.marketingcloud.access_token" value="PQLG9dUGMd6a46dPGJQQhTyN" />
+    <preference name="com.salesforce.marketingcloud.tenant_specific_endpoint" value="https://mcpththcmp1-ls8tz6vz2ypfzz7q.device.marketingcloudapis.com/" />
+    <preference name="com.salesforce.marketingcloud.analytics" value="true" />
+    <preference name="com.salesforce.marketingcloud.delay_registration_until_contact_key_is_set" value="false" />
+    <preference name="com.salesforce.marketingcloud.notification_small_icon" value="ic_notification" />
+</widget>

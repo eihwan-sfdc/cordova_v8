@@ -1,0 +1,36 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-marketingcloudsdk": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
+    }
+  },
+  "dependent_plugins": {},
+  "modules": [
+    {
+      "file": "plugins/cordova-plugin-marketingcloudsdk/www/MCCordovaPlugin.js",
+      "id": "cordova-plugin-marketingcloudsdk.MCCordovaPlugin",
+      "pluginId": "cordova-plugin-marketingcloudsdk",
+      "clobbers": [
+        "MCCordovaPlugin"
+      ]
+    },
+    {
+      "file": "plugins/cordova-plugin-marketingcloudsdk/www/event.js",
+      "id": "cordova-plugin-marketingcloudsdk.SFMCEvent",
+      "pluginId": "cordova-plugin-marketingcloudsdk",
+      "clobbers": [
+        "SFMCEvent"
+      ]
+    }
+  ],
+  "plugin_metadata": {
+    "cordova-plugin-marketingcloudsdk": "8.1.0"
+  }
+}

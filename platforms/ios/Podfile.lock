@@ -1,0 +1,20 @@
+PODS:
+  - MarketingCloud-SFMCSdk (1.1.0)
+  - MarketingCloudSDK (8.1.0):
+    - MarketingCloud-SFMCSdk (~> 1.1.0)
+
+DEPENDENCIES:
+  - MarketingCloudSDK (~> 8.1.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - MarketingCloud-SFMCSdk
+    - MarketingCloudSDK
+
+SPEC CHECKSUMS:
+  MarketingCloud-SFMCSdk: 5aa82f6e054e665f9d03b35a8ccfae46c76a2fe4
+  MarketingCloudSDK: 141a20301978f5965598871a82ff51cba5af504c
+
+PODFILE CHECKSUM: 1965a552b3ca465ddc4306758b97dbc05a5842c2
+
+COCOAPODS: 1.15.2
