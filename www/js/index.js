@@ -26,4 +26,29 @@ function onDeviceReady() {
 
     console.log('Running cordova-' + cordova.platformId + '@' + cordova.version);
     document.getElementById('deviceready').classList.add('ready');
+    // $(".app").hide();
+    // $("#page-firstpage").show();
+    // var contactKey = MCCordovaPlugin.getContactKey();
+    // $("#input-contactKey").text(contactKey);
 }
+
+// page-firstpage
+$(function(){
+
+    $("#button-log").on('click', function(){
+        MCCordovaPlugin.logSdkState(function(contactKey){
+        }, console.log('MCCordovaPlugin.logSdkState failed'));
+    });
+    
+    $("#button-getDeviceId").on('click', function(){
+        MCCordovaPlugin.getDeviceId(function(deviceId){
+            alert(deviceId);
+        }, console.log('MCCordovaPlugin.getDeviceId failed'));
+    })
+
+    MCCordovaPlugin.setOnNotificationOpenedListener(function (){
+        console.log("MCCordovaPlugin.setOnNotificationOpenedListener is Called");
+    });
+
+});
+

@@ -1,5 +1,5 @@
 {
-  "name": "io.cordova.hellocordova",
+  "name": "com.salesforce.internal.jpmc",
   "displayName": "HelloCordova",
   "version": "1.0.0",
   "description": "A sample Apache Cordova application that responds to the deviceready event.",
