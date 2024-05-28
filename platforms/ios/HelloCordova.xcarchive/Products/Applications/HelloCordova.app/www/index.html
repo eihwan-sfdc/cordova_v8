@@ -45,27 +45,15 @@
                 <p class="event received">Device is Ready</p>
             </div>
             <br>
-            <div>
-                <input type="button" id="button-log" value="PRINT STAT LOG" />
+            <div>contactKey : 
+                <input type="text" id="contactKey" />
+                <input type="button" id="setContactKey" value="SET ContactKey"/>
             </div>
             <br>
             <div>
-                <input type="button" id="button-getDeviceId" value="GET DEVICE ID" />
-            </div>
-            <br>
-            <div>
-                <input type="button" id="button-getContactKey" value="GET CONTACT KET" />
-            </div>
-            <br>
-            <div>
-                <input type="button" id="button-setContactKey" value="SET CONTACT KEY" />
+                <input type="button" id="logSdkState" value="logSdkState" />
             </div>
         </div>
-        <!-- <div id="page-firstpage">
-            <h1>First Page</h1>
-            contactKey : <input type="text" id="input-contactKey">
-        </div> -->
-
         <script src="cordova.js"></script>
         <script src="js/plugins/cordova-plugin-marketingcloudsdk/www/MCCordovaPlugin.js"></script>
         <script src="js/index.js"></script>

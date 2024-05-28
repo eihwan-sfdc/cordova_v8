@@ -42,7 +42,7 @@
 		</data>
 		<key>Frameworks/MarketingCloudSDK.framework/MarketingCloudSDK</key>
 		<data>
-		kPA1p2AlmLQ/wRRMQZDKDsvMbfs=
+		L7d4QMBfKU8thHaWCysWEdjDPck=
 		</data>
 		<key>Frameworks/MarketingCloudSDK.framework/MarketingCloudSDK.bundle/Assets.car</key>
 		<data>
@@ -171,7 +171,7 @@
 		</data>
 		<key>Frameworks/SFMCSDK.framework/SFMCSDK</key>
 		<data>
-		NmhFOjNPFrfF8iNzx5xbFrIhf54=
+		AnUCWmbCUx76GD4AN0Px4Hf4+vQ=
 		</data>
 		<key>Frameworks/SFMCSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -219,11 +219,11 @@
 		</data>
 		<key>www/index.html</key>
 		<data>
-		nZgJ28MdZX+E05v+rLzayfdcuHA=
+		FVsJ3oiSF4zmItPrxtV+f+Rto1c=
 		</data>
 		<key>www/js/index.js</key>
 		<data>
-		pPR5nXffmOpLAQhkB4VW7gSCwHI=
+		4xhRYYxeHNq6+eHi8QQItInL5pg=
 		</data>
 		<key>www/js/jquery-3.7.1.min.js</key>
 		<data>
@@ -307,7 +307,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VSF6J1W9R4CUO2+2IFbCqERAN/cRtYkZTgNpyOxk3FI=
+			adJ8mwU+KlODxFUMNUEFLlXNWW0pysxrFMOqgmpfufo=
 			</data>
 		</dict>
 		<key>Frameworks/MarketingCloudSDK.framework/MarketingCloudSDK.bundle/Assets.car</key>
@@ -526,7 +526,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0xwj8Xzn3iRUKyqmVtGSAmyAy77SZUOVYQ3JO74YwNY=
+			Z5LlRQ2BL/z4fwA7OVyuQ+w1VnnI7jh/BB0ymbcXZIY=
 			</data>
 		</dict>
 		<key>Frameworks/SFMCSDK.framework/_CodeSignature/CodeResources</key>
@@ -596,14 +596,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ErqKW8be+WB5FZoGq6893PKXN1F39+abCGUjP1xcGo0=
+			4Zef20f/h3QRG13BFn1GFtGhP7esLC03r5/E2vTJSIc=
 			</data>
 		</dict>
 		<key>www/js/index.js</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pulgUr/sdvXKb+1k+62jlY+iVOxUi2zACmkYbKWjCVc=
+			tj+ueCvBWY6V3jYdHcWLlx8mh1rLy5MLFVjb98td2t4=
 			</data>
 		</dict>
 		<key>www/js/jquery-3.7.1.min.js</key>
