@@ -26,20 +26,42 @@ function onDeviceReady() {
 
     console.log('Running cordova-' + cordova.platformId + '@' + cordova.version);
     document.getElementById('deviceready').classList.add('ready');
-
     // $(".app").hide();
     // $("#page-firstpage").show();
     // var contactKey = MCCordovaPlugin.getContactKey();
     // $("#input-contactKey").text(contactKey);
+    
+    MCCordovaPlugin.setOnNotificationOpenedListener(function(value) {
+        var jsonString = JSON.stringify(value, null, 4);
+        console.log(jsonString);
+    });
 }
 
 // page-firstpage
 $(function(){
 
+    $("#button-log").on('click', function(){
+        MCCordovaPlugin.logSdkState(function(contactKey){
+        }, console.log('MCCordovaPlugin.logSdkState failed'));
+    });
+    
+    $("#button-getDeviceId").on('click', function(){
+        MCCordovaPlugin.getDeviceId(function(deviceId){
+            alert(deviceId);
+        }, console.log('MCCordovaPlugin.getDeviceId failed'));
+    });
+    
     $("#button-getContactKey").on('click', function(){
         MCCordovaPlugin.getContactKey(function(contactKey){
             alert(contactKey);
-        }, alert('getContactKey Failed'));
-    })
+        }, console.log('MCCordovaPlugin.getContactKey failed'));
+    });
+    
+    $("#button-setContactKey").on('click', function(){
+        MCCordovaPlugin.setContactKey('cordovaContactKey', function(success){
+            console.log(success);
+        }, console.log('MCCordovaPlugin.setContactKey failed'));
+    });
+
 });
 

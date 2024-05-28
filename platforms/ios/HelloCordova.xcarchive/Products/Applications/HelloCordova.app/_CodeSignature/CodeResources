@@ -42,7 +42,7 @@
 		</data>
 		<key>Frameworks/MarketingCloudSDK.framework/MarketingCloudSDK</key>
 		<data>
-		9EWcl8/1a9rYaW7jdRMIKxOyzz4=
+		kPA1p2AlmLQ/wRRMQZDKDsvMbfs=
 		</data>
 		<key>Frameworks/MarketingCloudSDK.framework/MarketingCloudSDK.bundle/Assets.car</key>
 		<data>
@@ -171,7 +171,7 @@
 		</data>
 		<key>Frameworks/SFMCSDK.framework/SFMCSDK</key>
 		<data>
-		DAKEYWSLFTuBAqqBuIyse1JOxAc=
+		NmhFOjNPFrfF8iNzx5xbFrIhf54=
 		</data>
 		<key>Frameworks/SFMCSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -211,7 +211,7 @@
 		</data>
 		<key>www/css/index.css</key>
 		<data>
-		Cvb9YEW4fVVm3bKHPAze8kRX+e4=
+		541tjg82ymqcyD1GuIR6+tYEmVI=
 		</data>
 		<key>www/img/logo.png</key>
 		<data>
@@ -219,11 +219,11 @@
 		</data>
 		<key>www/index.html</key>
 		<data>
-		uoIE4VY7j3JfhvQJMb2n4hGidcg=
+		nZgJ28MdZX+E05v+rLzayfdcuHA=
 		</data>
 		<key>www/js/index.js</key>
 		<data>
-		QIY3gncRDr7bCx9Qi3Y8sThXWEc=
+		pPR5nXffmOpLAQhkB4VW7gSCwHI=
 		</data>
 		<key>www/js/jquery-3.7.1.min.js</key>
 		<data>
@@ -307,7 +307,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KR4LHfvu0rtKiVm+UCz7qYqjCotOGPTbyrGVxy+1ZW8=
+			VSF6J1W9R4CUO2+2IFbCqERAN/cRtYkZTgNpyOxk3FI=
 			</data>
 		</dict>
 		<key>Frameworks/MarketingCloudSDK.framework/MarketingCloudSDK.bundle/Assets.car</key>
@@ -526,7 +526,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RPGFQ/W9P9KMX4JwScjRgQGKst0ua+G8Kj1sjpcJ6OU=
+			0xwj8Xzn3iRUKyqmVtGSAmyAy77SZUOVYQ3JO74YwNY=
 			</data>
 		</dict>
 		<key>Frameworks/SFMCSDK.framework/_CodeSignature/CodeResources</key>
@@ -582,7 +582,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QUMIm6QghuAZQ6XbX4QNpBvRv/1mkYaWWiR9jLcxiYA=
+			c84FT9QhVo2OzWx+G+wuZzqZhnHVwBXonV0Uj2KM9W4=
 			</data>
 		</dict>
 		<key>www/img/logo.png</key>
@@ -596,14 +596,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wY9MgxWoS0+e4DaX9F2AZ5KC87fO1pmytn5NOHoDlT0=
+			ErqKW8be+WB5FZoGq6893PKXN1F39+abCGUjP1xcGo0=
 			</data>
 		</dict>
 		<key>www/js/index.js</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8l/qv+jiT3zoYqQBJsxHep3d+4ec1CSs7vAdDEuiUuU=
+			pulgUr/sdvXKb+1k+62jlY+iVOxUi2zACmkYbKWjCVc=
 			</data>
 		</dict>
 		<key>www/js/jquery-3.7.1.min.js</key>

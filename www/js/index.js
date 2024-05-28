@@ -30,6 +30,11 @@ function onDeviceReady() {
     // $("#page-firstpage").show();
     // var contactKey = MCCordovaPlugin.getContactKey();
     // $("#input-contactKey").text(contactKey);
+    
+    MCCordovaPlugin.setOnNotificationOpenedListener(function(value) {
+        var jsonString = JSON.stringify(value, null, 4);
+        console.log(jsonString);
+    });
 }
 
 // page-firstpage
@@ -44,10 +49,18 @@ $(function(){
         MCCordovaPlugin.getDeviceId(function(deviceId){
             alert(deviceId);
         }, console.log('MCCordovaPlugin.getDeviceId failed'));
-    })
-
-    MCCordovaPlugin.setOnNotificationOpenedListener(function (){
-        console.log("MCCordovaPlugin.setOnNotificationOpenedListener is Called");
+    });
+    
+    $("#button-getContactKey").on('click', function(){
+        MCCordovaPlugin.getContactKey(function(contactKey){
+            alert(contactKey);
+        }, console.log('MCCordovaPlugin.getContactKey failed'));
+    });
+    
+    $("#button-setContactKey").on('click', function(){
+        MCCordovaPlugin.setContactKey('cordovaContactKey', function(success){
+            console.log(success);
+        }, console.log('MCCordovaPlugin.setContactKey failed'));
     });
 
 });
