@@ -37,7 +37,7 @@
         "parents": {
           "/manifest/application": [
             {
-              "xml": "<provider android:authorities=\"io.cordova.hellocordova.com.salesforce.marketingcloud.cordova.MCInitProvider\" android:enabled=\"true\" android:exported=\"false\" android:name=\"com.salesforce.marketingcloud.cordova.MCInitProvider\" />",
+              "xml": "<provider android:authorities=\"com.salesforce.internal.jpmc.com.salesforce.marketingcloud.cordova.MCInitProvider\" android:enabled=\"true\" android:exported=\"false\" android:name=\"com.salesforce.marketingcloud.cordova.MCInitProvider\" />",
               "count": 1
             }
           ]
@@ -47,7 +47,7 @@
   },
   "installed_plugins": {
     "cordova-plugin-marketingcloudsdk": {
-      "PACKAGE_NAME": "io.cordova.hellocordova"
+      "PACKAGE_NAME": "com.salesforce.internal.jpmc"
     }
   },
   "dependent_plugins": {},

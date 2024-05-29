@@ -113,7 +113,7 @@ ext {
 }
 
 // PLUGIN GRADLE EXTENSIONS START
-apply from: "../cordova-plugin-marketingcloudsdk/hellocordova-marketingcloudsdk.gradle"
+apply from: "../cordova-plugin-marketingcloudsdk/jpmc-marketingcloudsdk.gradle"
 // PLUGIN GRADLE EXTENSIONS END
 
 def hasBuildExtras1 = file('build-extras.gradle').exists()

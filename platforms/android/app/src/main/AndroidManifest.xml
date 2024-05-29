@@ -12,7 +12,7 @@
         <provider android:authorities="${applicationId}.cdv.core.file.provider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
             <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/cdv_core_file_provider_paths" />
         </provider>
-        <provider android:authorities="io.cordova.hellocordova.com.salesforce.marketingcloud.cordova.MCInitProvider" android:enabled="true" android:exported="false" android:name="com.salesforce.marketingcloud.cordova.MCInitProvider" />
+        <provider android:authorities="com.salesforce.internal.jpmc.com.salesforce.marketingcloud.cordova.MCInitProvider" android:enabled="true" android:exported="false" android:name="com.salesforce.marketingcloud.cordova.MCInitProvider" />
     </application>
     <queries>
         <intent>

@@ -3,7 +3,7 @@
   "display": "standalone",
   "name": "HelloCordova",
   "short_name": "HelloCordova",
-  "version": "io.cordova.hellocordova",
+  "version": "com.salesforce.internal.jpmc",
   "description": "Sample Apache Cordova App",
   "author": "Apache Cordova Team",
   "icons": [],

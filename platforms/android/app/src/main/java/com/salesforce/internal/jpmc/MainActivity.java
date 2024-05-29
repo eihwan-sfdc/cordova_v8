@@ -17,7 +17,7 @@
        under the License.
  */
 
-package io.cordova.hellocordova;
+package com.salesforce.internal.jpmc;
 
 import android.os.Bundle;
 

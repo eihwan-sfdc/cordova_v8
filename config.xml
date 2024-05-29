@@ -23,4 +23,7 @@
     <preference name="com.salesforce.marketingcloud.analytics" value="true" />
     <preference name="com.salesforce.marketingcloud.delay_registration_until_contact_key_is_set" value="false" />
 
+    <platform name="android">
+        <resource-file src="google-services.json" target="app/google-services.json" />
+    </platform>
 </widget>
