@@ -87,7 +87,8 @@ String doFindLatestInstalledBuildTools(String minBuildToolsVersionString) {
 String getAndroidSdkDir() {
     def rootDir = project.rootDir
     def androidSdkDir = null
-    String envVar = System.getenv("ANDROID_HOME")
+//    String envVar = System.getenv("ANDROID_HOME")
+    String envVar = "/Users/eihwan.kim/Library/Android/sdk"
     if (envVar == null) {
         envVar = System.getenv("ANDROID_SDK_ROOT")
     }
